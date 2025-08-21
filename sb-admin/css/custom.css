@@ -1,0 +1,56 @@
+/* Sidebar Dark Soft Style */
+.sidebar {
+    background: linear-gradient(180deg, #2d3436 10%, #636e72 100%) !important; 
+    color: #dfe6e9;
+}
+
+.sidebar .nav-item .nav-link {
+    color: #dfe6e9 !important;   /* teks sidebar abu terang */
+    font-weight: 500;
+}
+
+.sidebar .nav-item .nav-link i {
+    color: #b2bec3 !important;   /* ikon abu soft */
+}
+
+/* Hover effect lebih lembut */
+.sidebar .nav-item .nav-link:hover {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: #ffffff !important;
+    border-radius: 8px;
+}
+
+/* Aktif menu */
+.sidebar .nav-item.active .nav-link {
+    background-color: rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Divider (garis pemisah) lebih soft */
+.sidebar hr.sidebar-divider {
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Soft Primary Button */
+.btn-primary {
+    background-color: #6c9bd2 !important;  /* biru soft */
+    border-color: #6c9bd2 !important;
+}
+
+.btn-primary:hover {
+    background-color: #5a8cc5 !important;
+    border-color: #5a8cc5 !important;
+}
+
+/* Soft Danger Button */
+.btn-danger {
+    background-color: #e07b7b !important;  /* merah soft */
+    border-color: #e07b7b !important;
+}
+
+.btn-danger:hover {
+    background-color: #d16a6a !important;
+    border-color: #d16a6a !important;
+}
