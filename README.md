@@ -42,7 +42,7 @@ INVENTORI_PROJECT/
 -  license.txt # File lisensi (opsional)
 - README.md # Dokumentasi proyek
 
-### 14. DESAIN ERD SEDERHANA
+### DESAIN ERD SEDERHANA
 ![App Screenshot](images/ERD_INVENTORY.drawio.png)
 
 ## ⚙️ Fitur Utama
