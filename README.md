@@ -56,19 +56,15 @@ INVENTORI_PROJECT/
 2. **Manajemen Barang**
    - Tambah, ubah, hapus, dan lihat data barang.
    - Barang memiliki stok yang otomatis berubah sesuai transaksi.
-   - Laporan data barang
 
 3. **Customer**
    - CRUD data customer (pelanggan).
-   - Laporan data customer
 
 4. **Supplier**
    - CRUD data supplier.
-   - Laporan data supplier
 
 5. **Petugas**
    - CRUD data petugas (pegawai gudang).
-   - Laporan data petugas
 
 6. **Transaksi**
    - **Transaksi Penerimaan** → barang masuk menambah stok.
