@@ -21,6 +21,7 @@ Sistem ini merupakan aplikasi manajemen gudang sederhana yang dibangun menggunak
      ```
      http://localhost/inventori
      ```
+NB : saya menggunakan PHP versi 7.4.29
 
 
 ## 📂 Struktur Proyek
@@ -55,22 +56,28 @@ INVENTORI_PROJECT/
 2. **Manajemen Barang**
    - Tambah, ubah, hapus, dan lihat data barang.
    - Barang memiliki stok yang otomatis berubah sesuai transaksi.
+   - Laporan data barang
 
 3. **Customer**
    - CRUD data customer (pelanggan).
+   - Laporan data customer
 
 4. **Supplier**
    - CRUD data supplier.
+   - Laporan data supplier
 
 5. **Petugas**
    - CRUD data petugas (pegawai gudang).
+   - Laporan data petugas
 
 6. **Transaksi**
    - **Transaksi Penerimaan** → barang masuk menambah stok.
+   - Laporan data transaksi penerimaan
    - **Transaksi Pengeluaran** → barang keluar mengurangi stok.
+   - Laporan data transaksi pengeluaran
 
 7. **Manajemen Pengguna**
-   - Tambah, ubah, hapus akun pengguna.
+   - Tambah, ubah, hapus akun pengguna (admin)
    - Mendukung role (admin, petugas).
 
 8. **Profil Perusahaan**
@@ -94,7 +101,6 @@ Sebagai pemula dalam **CodeIgniter**, beberapa kendala yang dihadapi antara lain
 
 ### Cara Penyelesaian
 - Memperdalam dokumentasi **CodeIgniter** dan tutorial **MVC**.
-- Melakukan debug data menggunakan `print_r()` dan `var_dump()`.
 - Menyesuaikan **path asset** AdminLTE agar tampil dengan benar.
 - Belajar menulis query database secara bertahap, mulai dari **SELECT** sederhana hingga **JOIN** kompleks.
 
